@@ -1,28 +1,24 @@
 {
-  "name": "growth-bot",
+  "name": "bot-framework",
   "version": "1.0.0",
-  "description": "discordjs growth bot",
+  "description": "basic discord.js bot framework",
   "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PaulSera1/GrowthTracker.git"
+    "url": "git+https://github.com/PaulSera1/bot-framework.git"
   },
-  "keywords": [
-    "discordjs"
-  ],
-  "author": "Paul Serafimescu",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PaulSera1/GrowthTracker/issues"
+    "url": "https://github.com/PaulSera1/bot-framework/issues"
   },
-  "homepage": "https://github.com/PaulSera1/GrowthTracker#readme",
-  "dependencies": {
-    "discord.js": "^12.5.1",
-    "fs": "0.0.1-security",
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/PaulSera1/bot-framework#readme"
 }
