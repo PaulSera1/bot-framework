@@ -1,0 +1,28 @@
+{
+  "name": "growth-bot",
+  "version": "1.0.0",
+  "description": "discordjs growth bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulSera1/GrowthTracker.git"
+  },
+  "keywords": [
+    "discordjs"
+  ],
+  "author": "Paul Serafimescu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulSera1/GrowthTracker/issues"
+  },
+  "homepage": "https://github.com/PaulSera1/GrowthTracker#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
